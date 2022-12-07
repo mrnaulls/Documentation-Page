@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+	#body {
+  	flex-direction: column;
+    }
+   #main-doc {
+	width: 100%;
+	}
+  #navbar {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  }
+
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: open-sans;
+  line-height: 1.5;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: black;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#table {
+  text-align: left;
+  padding-left: 40px;
+}
+
+nav header {
+  text-align: middle;
+  color: black;
+}
+
+#navbar {
+  background-color: white;
+  height: 100vh;
+  width: 25%;
+}
+
+#main-doc {
+  width: 75%;
+  height: 100vh;
+}
+
+#ul-navbar {
+  list-style-type: none;
+}
+
+#ul-navbar li {
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 90%;
+  padding: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: normal;
+  font-family: fangsong;
+  color: black;
+}
